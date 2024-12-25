@@ -1,0 +1,32 @@
+{
+  "name": "bookshelf-api-dicoding",
+  "version": "1.0.0",
+  "description": "Bookshelf API sederhana untuk menyimpan, menampilkan, memperbarui, dan menghapus data buku.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ."
+  },
+  "author": "Aldy Ardiansyah",
+  "license": "MIT",
+  "dependencies": {
+    "nanoid": "^3.3.8",
+    "@hapi/hapi": "^20.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "bookshelf",
+    "api",
+    "nodejs",
+    "hapi"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
